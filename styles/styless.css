@@ -1,29 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,600&display=swap');
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-header{
-    margin: 52px 120px;
+header {
+    padding: 50px 135px;
 }
-.title-two{
+
+.title-two {
     color: #FF5400;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
 }
-.nav-title{
+
+.nav-title {
     display: flex;
 }
-.item-container a{
+
+.item-container a {
     text-decoration: none;
     margin-right: 20px;
     color: black;
 
 }
 
-.item-container .item-one{
+.item-container .item-one {
     color: #FF5400;
+}
+
+.banner {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    height: 500px;
+    background-image: url('../Images/groupthirteen.png');
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    padding: 50px ;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.section-from input {
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    padding: 20px;
+    
+}
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    border: 0;
+}
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+    header{
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .banner{
+        padding: 10px;
+    }
+
+    .banner .banner-title{
+        font-size: 1.4rem;
+    }
+
+    .banner .banner-description{
+        font-size: 0.75rem;
+    }
+    .banner input{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+   
 }
