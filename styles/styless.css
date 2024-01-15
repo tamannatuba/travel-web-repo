@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,600&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    margin: 52px 120px;
+}
+.title-two{
+    color: #FF5400;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    display: flex;
+}
+.item-container a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+
+}
+
+.item-container .item-one{
+    color: #FF5400;
+}
