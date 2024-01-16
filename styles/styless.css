@@ -146,12 +146,62 @@ nav {
     padding: 10px;
 }
 
-.newsletter{
+.newsletter {
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
 }
 
+
+.newsletter-from input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    width: 80%;
+}
+
+.newsletter img{
+    width: 100%;
+}
+
+.btn-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 20px;
+    border: 0;
+    width: 90%;
+}
+
+.news-description {
+    border: 1px solid #FF5400;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.discound {
+    width: 200px;
+    height: 80px;
+    background-color: #FF5400;
+    text-align: center;
+    color: #FFF;
+    position: relative;
+    left: 450px;
+    bottom: 140px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+}
+
+
+footer{
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    height: 500px;
+    padding: 50px;
+}
 
 
 
@@ -201,6 +251,18 @@ nav {
 
     .img-section .part-one {
         flex-direction: column;
+    }
+
+    .card-section {
+        flex-direction: column;
+    }
+
+    .card-mother .card-container {
+        flex-direction: column;
+    }
+    .newsletter{
+        flex-direction: column;
+        gap:10px;
     }
 
 
