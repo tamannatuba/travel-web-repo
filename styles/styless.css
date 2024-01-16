@@ -33,14 +33,14 @@ nav {
 }
 
 .banner {
-    max-width: 1170px;
+    max-width: 1140px;
     margin: 0 auto;
-    text-align: center;
     height: 500px;
+    text-align: center;
     background-image: url('../Images/groupthirteen.png');
     background-repeat: no-repeat;
-    /* width: 100%; */
-    padding: 50px ;
+    width: 80%;
+    padding: 50px;
 }
 
 .banner-title {
@@ -60,8 +60,9 @@ nav {
     background: #FFF;
     border: 0;
     padding: 20px;
-    
+
 }
+
 
 .btn-primary {
     width: 174px;
@@ -72,6 +73,26 @@ nav {
     border: 0;
 }
 
+.section-title {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main-section{
+    display: flex;
+    padding: 50px 135px;
+}
+
+
+
 
 
 
@@ -79,7 +100,7 @@ nav {
 
 @media screen and (max-width:600px) {
 
-    header{
+    header {
         padding: 20px;
     }
 
@@ -87,21 +108,30 @@ nav {
         flex-direction: column;
     }
 
-    .banner{
-        padding: 10px;
+    .banner {
+        padding: 0px;
+        width: 100%;
     }
 
-    .banner .banner-title{
+    .banner .banner-title {
         font-size: 1.4rem;
     }
 
-    .banner .banner-description{
+    .banner .banner-description {
         font-size: 0.75rem;
     }
+
     .banner input{
         flex-direction: column;
         margin-bottom: 10px;
     }
+    .main-section{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .main-section img{
+        width: 100%;
+    }
 
-   
+
 }
