@@ -5,7 +5,8 @@ body {
 }
 
 header {
-    padding: 50px 135px;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 .title-two {
@@ -37,7 +38,7 @@ nav {
     margin: 0 auto;
     height: 500px;
     text-align: center;
-    background-image: url('../Images/groupthirteen.png');
+    background-image: url('../images/groupthirteen.png');
     background-repeat: no-repeat;
     width: 80%;
     padding: 50px;
@@ -86,12 +87,70 @@ nav {
     font-weight: 400;
 }
 
-.main-section{
+.main-section {
     display: flex;
-    padding: 50px 135px;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
+.img-section {
+    text-align: center;
+    max-width: 1170px;
+    margin: 0 auto;
+}
 
+.name {
+    position: relative;
+    bottom: 150px;
+    color: #FFF;
+}
+
+.part-one {
+    display: flex;
+    gap: 10px;
+}
+
+.card-section {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card-container .card-one {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 10px;
+}
+
+.card-container .card-two {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 10px;
+}
+
+.card-mother .card-three {
+    max-width: 570px;
+    margin: 10px auto;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 10px;
+}
+
+.newsletter{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
 
 
 
@@ -104,7 +163,8 @@ nav {
         padding: 20px;
     }
 
-    nav {
+    nav,
+    .img-section {
         flex-direction: column;
     }
 
@@ -121,16 +181,26 @@ nav {
         font-size: 0.75rem;
     }
 
-    .banner input{
+    .banner input {
         flex-direction: column;
         margin-bottom: 10px;
     }
-    .main-section{
+
+    .main-section {
         flex-direction: column;
         padding: 10px;
     }
-    .main-section img{
+
+    .main-section img {
         width: 100%;
+    }
+
+    .img-section img {
+        width: 100%;
+    }
+
+    .img-section .part-one {
+        flex-direction: column;
     }
 
 
